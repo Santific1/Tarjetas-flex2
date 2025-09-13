@@ -12,7 +12,34 @@
     align-items: center;
 }
 
-#imagen{
+.imagen{
     width: 350px;
 }
 
+#caja2{
+    background-image: url(../img/linternaverde2.webp);
+    width: 500px;
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.parrafo{
+    color: rgb(39, 119, 188);
+    width: 40%; 
+}
+#caja3{
+    background-image: url(../img/linternaverde2.webp);
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 1700px
+}
